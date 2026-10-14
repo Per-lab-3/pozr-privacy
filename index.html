@@ -3,161 +3,285 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Pozr</title>
+    <title>Our privacy policy - Pozr</title>
     <style>
         * {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
         }
+
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             background-color: #FFFFFF;
-            color: #24292F;
-            line-height: 1.6;
-            padding: 48px 24px;
+            color: #374151;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-size: 15px;
+            line-height: 1.65;
+            padding: 56px 24px 96px 24px;
+            -webkit-font-smoothing: antialiased;
         }
+
         .container {
-            max-width: 820px;
+            max-width: 880px;
             margin: 0 auto;
         }
-        h1 {
-            font-size: 32px;
-            font-weight: 700;
-            color: #1F2328;
-            letter-spacing: -0.5px;
-            margin-bottom: 8px;
+
+        /* Header styling matching the reference */
+        .header {
+            text-align: center;
+            margin-bottom: 56px;
         }
-        .updated {
-            color: #656D76;
-            font-size: 14px;
-            margin-bottom: 24px;
-            padding-bottom: 16px;
-            border-bottom: 1px solid #D0D7DE;
-        }
-        h2 {
-            font-size: 20px;
-            font-weight: 700;
-            color: #1F2328;
-            margin-top: 32px;
-            margin-bottom: 12px;
-        }
-        p {
-            font-size: 15px;
-            color: #24292F;
+
+        .eyebrow {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 13px;
+            font-weight: 500;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #6B7280;
             margin-bottom: 14px;
         }
-        ul {
-            padding-left: 24px;
-            margin-bottom: 16px;
+
+        .title {
+            font-family: "Georgia", "Times New Roman", Garamond, serif;
+            font-size: 64px;
+            font-weight: 400;
+            line-height: 1.1;
+            letter-spacing: -1px;
+            color: #111827;
         }
-        li {
+
+        /* Last Updated */
+        .last-updated {
+            margin-bottom: 20px;
             font-size: 15px;
-            color: #24292F;
+            color: #374151;
+        }
+
+        .last-updated strong {
+            color: #111827;
+            font-weight: 700;
+        }
+
+        /* Paragraphs */
+        p {
+            margin-bottom: 16px;
+            color: #374151;
+        }
+
+        /* Contents section matching the reference */
+        .contents-section {
+            margin-top: 32px;
+            margin-bottom: 36px;
+        }
+
+        .contents-title {
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #111827;
+            margin-bottom: 12px;
+        }
+
+        .contents-list {
+            list-style-type: disc;
+            padding-left: 22px;
+        }
+
+        .contents-list li {
+            margin-bottom: 8px;
+            color: #374151;
+        }
+
+        .contents-list a {
+            color: #2563EB;
+            text-decoration: none;
+        }
+
+        .contents-list a:hover {
+            text-decoration: underline;
+        }
+
+        /* Section Headings */
+        h2 {
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #111827;
+            margin-top: 40px;
+            margin-bottom: 10px;
+            padding-top: 8px;
+        }
+
+        /* Subheadings */
+        h3 {
+            font-size: 15px;
+            font-weight: 700;
+            color: #111827;
+            margin-top: 18px;
             margin-bottom: 8px;
         }
-        strong {
-            color: #1F2328;
+
+        /* Body lists */
+        ul.body-list {
+            list-style-type: disc;
+            padding-left: 22px;
+            margin-bottom: 16px;
+        }
+
+        ul.body-list li {
+            margin-bottom: 8px;
+            color: #374151;
+        }
+
+        ul.body-list strong {
+            color: #111827;
             font-weight: 600;
         }
-        code {
-            background-color: #F6F8FA;
-            padding: 2px 6px;
-            border-radius: 4px;
-            font-size: 13.5px;
-            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-            border: 1px solid #D0D7DE;
-        }
-        hr {
-            border: 0;
-            border-top: 1px solid #D0D7DE;
-            margin: 32px 0;
-        }
+
         .footer {
-            margin-top: 40px;
-            padding-top: 20px;
-            border-top: 1px solid #D0D7DE;
+            margin-top: 60px;
+            padding-top: 24px;
+            border-top: 1px solid #E5E7EB;
             font-size: 13px;
-            color: #656D76;
+            color: #6B7280;
         }
-        @media (max-width: 600px) {
+
+        @media (max-width: 640px) {
             body {
-                padding: 24px 16px;
+                padding: 36px 16px 64px 16px;
             }
-            h1 {
-                font-size: 26px;
+
+            .title {
+                font-size: 40px;
             }
-            h2 {
-                font-size: 18px;
+
+            .header {
+                margin-bottom: 36px;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Privacy Policy for Pozr</h1>
-        <p class="updated">Effective Date: October 2026 &bull; Published by UraPix Studio</p>
+
+        <!-- Top Header matching reference Image 1 -->
+        <div class="header">
+            <div class="eyebrow">PRIVACY</div>
+            <h1 class="title">Our privacy policy</h1>
+        </div>
+
+        <p class="last-updated"><strong>Last Updated:</strong> October 14, 2026</p>
 
         <p>
-            Welcome to <strong>Pozr</strong> (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;), developed by <strong>UraPix Studio</strong>. Pozr is a photography pose guide and camera assistant application for Android. We respect your privacy and are committed to protecting it through 100% on-device operation.
+            This Pozr Privacy Policy describes how UraPix Studio (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) handles and processes information about you. This Privacy Policy applies to information when you access or use our mobile application, photography pose guide tools, smart scene recognition features, and related services that link to this Privacy Policy (collectively, our &ldquo;Services&rdquo;) and when you otherwise interact with us.
         </p>
         <p>
-            This Privacy Policy explains how Pozr interacts with your device, handles permissions, and ensures your data never leaves your control.
+            Pozr is engineered with a strict 100% on-device architecture. We believe your creative moments and personal photos belong solely to you. We do not collect, transmit, or store your photos or personal data on remote servers.
+        </p>
+        <p>
+            We may change this Privacy Policy from time to time. If we make changes, we will notify you by revising the date at the top of this policy. We encourage you to review this Privacy Policy regularly to stay informed about our information practices and the choices available to you.
         </p>
 
-        <h2>1. Zero Personal Data Collection</h2>
+        <!-- Table of Contents matching reference Image 2 -->
+        <div class="contents-section">
+            <div class="contents-title">CONTENTS</div>
+            <ul class="contents-list">
+                <li><a href="#collection-of-information">Collection of Information</a></li>
+                <li><a href="#use-of-information">Use of Information</a></li>
+                <li><a href="#camera-and-sensor-processing">Camera and Sensor Processing</a></li>
+                <li><a href="#media-storage-and-picker">Media Storage and Photo Picker</a></li>
+                <li><a href="#disclosure-of-information">Disclosure of Information</a></li>
+                <li><a href="#your-choices">Your Choices</a></li>
+                <li><a href="#retention-of-information">Retention of Information</a></li>
+                <li><a href="#childrens-privacy">Children&rsquo;s Privacy</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- Sections matching reference format -->
+        <h2 id="collection-of-information">COLLECTION OF INFORMATION</h2>
         <p>
-            Pozr does not collect, store, transmit, rent, or sell any personal information or device telemetry.
+            The information processed about you depends on how you interact with our Services. In this section, we describe the categories of information processed and the sources of this information.
         </p>
-        <ul>
-            <li><strong>No User Account:</strong> No sign-in, login credentials, name, email address, or phone number are required to use the app.</li>
-            <li><strong>No Cloud Servers:</strong> We do not operate remote servers or cloud databases that receive your camera feed or photos.</li>
-            <li><strong>No Trackers or Ads:</strong> Pozr does not integrate third-party advertising SDKs, behavioral analytics, or cross-app tracking libraries.</li>
+
+        <h3>Information You Provide to Us</h3>
+        <p>
+            We do not collect personal information that you provide directly to us because Pozr does not require user registration. You do not create an account, provide an email address, enter your phone number, or provide login credentials to use Pozr.
+        </p>
+
+        <h3>Information Processed On-Device</h3>
+        <p>
+            When you use the camera viewfinder or align your posture with pose guides:
+        </p>
+        <ul class="body-list">
+            <li><strong>Live Viewfinder Frames:</strong> Frames captured by your device camera are processed exclusively within your device&rsquo;s volatile memory (RAM) to render the preview and overlay pose silhouettes in real time. These frames are never transmitted to cloud servers.</li>
+            <li><strong>Smart Scene Recognition:</strong> Pozr uses on-device machine learning (Google ML Kit) to suggest relevant pose categories (such as outdoor, café, urban, or portrait). All ML inference runs locally on your phone hardware. No images, video streams, or inferences are sent off your device.</li>
+            <li><strong>No Biometric Data:</strong> Pozr does not create, scan, or retain facial recognition models, facial geometry templates, biometric hashes, or identity profiles.</li>
         </ul>
 
-        <h2>2. Camera Permission &amp; On-Device Processing</h2>
+        <h2 id="use-of-information">USE OF INFORMATION</h2>
         <p>
-            Pozr requests camera permission (<code>android.permission.CAMERA</code>) solely to display the live viewfinder, align pose silhouette outlines, and capture photos at your request.
+            Because Pozr functions entirely locally on your device, any camera input or preference selection is used solely to provide core app functionality:
         </p>
-        <ul>
-            <li><strong>Live Viewfinder:</strong> Camera frames are displayed directly on your device screen to assist with posture and framing.</li>
-            <li><strong>Scene Recognition:</strong> Smart scene categorization (such as outdoor, café, beach, or street) runs 100% locally on your phone using Google ML Kit on-device models. Frames are processed transiently in memory and discarded immediately.</li>
-            <li><strong>Zero Biometric Identification:</strong> Pozr does not extract, catalog, or store facial recognition templates, identity hashes, or biometric identifiers.</li>
+        <ul class="body-list">
+            <li>Display real-time pose guide overlays and silhouette lines to assist your photography framing.</li>
+            <li>Provide intelligent scene-based pose suggestions using local hardware inference.</li>
+            <li>Capture high-resolution photos upon shutter press and store them directly in your device&rsquo;s photo gallery.</li>
+            <li>Remember your local preferences (such as favorite pose presets and camera aspect ratio).</li>
         </ul>
 
-        <h2>3. Media Storage &amp; Photo Picker</h2>
-        <ul>
-            <li><strong>Captured Photos:</strong> Photos taken using Pozr are written directly to your device&rsquo;s public storage gallery in the <code>Pictures/Pozr</code> folder via the Android MediaStore API. These files remain entirely on your device.</li>
-            <li><strong>Custom Pose Import:</strong> When you import an inspiration photo to create a custom pose outline, Pozr utilizes the standard Android System Photo Picker (<code>PickVisualMedia</code>). This grants temporary read access exclusively to the single selected image without broad storage access. Subject segmentation runs locally on-device.</li>
+        <h2 id="camera-and-sensor-processing">CAMERA AND SENSOR PROCESSING</h2>
+        <p>
+            To use Pozr, the app requests access to your device camera (<code>android.permission.CAMERA</code>). This permission is strictly utilized to operate the live camera viewfinder and allow you to capture photos. The camera is active only while the app is in the foreground and you are actively viewing the camera screen. We do not access the camera in the background or when the app is closed.
+        </p>
+
+        <h2 id="media-storage-and-picker">MEDIA STORAGE AND PHOTO PICKER</h2>
+        <p>
+            Pozr handles media according to modern Android privacy standards:
+        </p>
+        <ul class="body-list">
+            <li><strong>Saving Photos:</strong> When you capture a photo, Pozr saves the image directly into your phone&rsquo;s public gallery under the <code>Pictures/Pozr</code> folder via the Android MediaStore API. These files remain under your complete control.</li>
+            <li><strong>Custom Pose Import:</strong> If you choose to import an inspiration photo to generate a custom pose outline, Pozr opens the standard Android System Photo Picker (<code>PickVisualMedia</code>). This zero-permission mechanism ensures Pozr only receives temporary read access to the specific photo you choose. Pose extraction is executed locally on-device, and no photos are uploaded.</li>
         </ul>
 
-        <h2>4. Local Preferences Storage</h2>
+        <h2 id="disclosure-of-information">DISCLOSURE OF INFORMATION</h2>
         <p>
-            User preferences (such as favorite pose presets and camera ratio settings) are stored locally on your device via Android Jetpack DataStore. Clearing the app&rsquo;s data in your device settings or uninstalling the app permanently removes all stored data.
+            We do not share, sell, rent, disclose, or transfer any personal information, camera data, or photos to third parties. We do not include third-party advertising networks, analytics tracking SDKs, or data brokers in our application.
         </p>
 
-        <h2>5. Third-Party Sharing</h2>
+        <h2 id="your-choices">YOUR CHOICES</h2>
         <p>
-            Because Pozr does not transmit any information off your device, no data is ever shared with, sold to, or accessible by third parties.
+            You have full control over the permissions and data associated with Pozr on your device:
+        </p>
+        <ul class="body-list">
+            <li><strong>Camera Permission:</strong> You can grant or revoke camera access at any time through your device settings under <strong>Settings &gt; Apps &gt; Pozr &gt; Permissions</strong>.</li>
+            <li><strong>Local Preferences &amp; Data:</strong> You can reset all saved favorite poses and preferences by clearing the app&rsquo;s storage in Android settings or by uninstalling the application.</li>
+        </ul>
+
+        <h2 id="retention-of-information">RETENTION OF INFORMATION</h2>
+        <p>
+            Because we do not collect or upload your photos, videos, or personal data to external servers, we do not retain your information. Photos captured with Pozr are stored locally on your device and remain there until you choose to delete them.
         </p>
 
-        <h2>6. Children&rsquo;s Privacy</h2>
+        <h2 id="childrens-privacy">CHILDREN&rsquo;S PRIVACY</h2>
         <p>
-            Pozr does not collect personal data from any users, including children under the age of 13.
+            Our Services do not collect personal information from any users, including children under the age of 13.
         </p>
 
-        <h2>7. Changes to This Privacy Policy</h2>
+        <h2 id="contact-us">CONTACT US</h2>
         <p>
-            We may update this policy if necessary to reflect product or regulatory updates. Any changes will be posted directly to this page with an updated effective date.
+            If you have any questions or feedback about this Privacy Policy or our privacy practices, please contact us at:
         </p>
-
-        <h2>8. Contact</h2>
         <p>
-            If you have questions regarding this Privacy Policy, please contact UraPix Studio via the developer support email provided on our Google Play Store listing.
+            <strong>UraPix Studio</strong><br>
+            Developer Support Email: Available on our Google Play Store application page.
         </p>
 
         <div class="footer">
-            &copy; 2026 UraPix Studio &bull; Pozr
+            &copy; 2026 UraPix Studio. All rights reserved.
         </div>
     </div>
 </body>
