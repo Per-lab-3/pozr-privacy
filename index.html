@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Pozr</title>
+    <style>
+        :root {
+            --bg-color: #0F1115;
+            --card-bg: #181B22;
+            --text-primary: #F3F4F6;
+            --text-secondary: #9CA3AF;
+            --accent: #00E5FF;
+            --border-color: #262A34;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.65;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 780px;
+            margin: 0 auto;
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+        }
+        .badge {
+            display: inline-block;
+            background: rgba(0, 229, 255, 0.12);
+            color: var(--accent);
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            padding: 6px 12px;
+            border-radius: 999px;
+            margin-bottom: 16px;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: 800;
+            margin-bottom: 8px;
+            color: #FFFFFF;
+        }
+        .updated {
+            color: var(--text-secondary);
+            font-size: 14px;
+            margin-bottom: 32px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid var(--border-color);
+        }
+        h2 {
+            font-size: 20px;
+            font-weight: 700;
+            color: #FFFFFF;
+            margin-top: 28px;
+            margin-bottom: 12px;
+        }
+        p, li {
+            color: var(--text-secondary);
+            font-size: 16px;
+            margin-bottom: 14px;
+        }
+        ul {
+            padding-left: 22px;
+            margin-bottom: 16px;
+        }
+        strong {
+            color: var(--text-primary);
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border-color);
+            font-size: 14px;
+            color: var(--text-secondary);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span class="badge">100% On-Device Privacy</span>
+        <h1>Privacy Policy for Pozr</h1>
+        <p class="updated">Effective Date: October 2026</p>
+
+        <p>Welcome to <strong>Pozr</strong> ("we", "our", or "us"). Pozr is an on-device photography pose guide and camera assistant application for Android. We are committed to protecting your privacy completely. This Privacy Policy explains how Pozr handles your information and device permissions.</p>
+
+        <h2>1. Zero Personal Data Collection</h2>
+        <p><strong>Pozr does not collect, store, transmit, rent, or sell any personal data.</strong></p>
+        <ul>
+            <li>No user account, registration, email address, or sign-in is required to use Pozr.</li>
+            <li>We do not operate external cloud servers that receive your photos or camera stream.</li>
+            <li>We do not include third-party advertising SDKs, behavioral trackers, or cross-app analytics.</li>
+        </ul>
+
+        <h2>2. Camera Permission &amp; 100% On-Device AI Processing</h2>
+        <p>Pozr requests access to your device's camera (<code>android.permission.CAMERA</code>) strictly to provide live camera viewfinder previews, pose silhouette alignment, and photo capture.</p>
+        <ul>
+            <li><strong>Smart Scene Detection:</strong> Real-time scene recognition (such as detecting indoor, outdoor, cafe, beach, or street settings to suggest matching poses) runs 100% locally on your device using Google ML Kit on-device models.</li>
+            <li><strong>Custom Pose Outlines:</strong> When you import a reference image to extract a custom pose silhouette, subject segmentation is processed entirely in your device's local memory and never leaves your phone.</li>
+        </ul>
+
+        <h2>3. Photo Storage &amp; Media Picker</h2>
+        <ul>
+            <li><strong>Captured Photos:</strong> Photos you take with Pozr are saved directly to your device's local gallery inside the <code>Pictures/Pozr</code> folder using Android's scoped MediaStore API. Only you have access to your saved photos.</li>
+            <li><strong>Importing Reference Images:</strong> When you import a photo from your library to create a custom pose outline, Pozr uses the system Android Photo Picker, which grants temporary read access only to the single image you explicitly select without requiring broad storage permissions.</li>
+        </ul>
+
+        <h2>4. Local Preferences Storage</h2>
+        <p>Your app preferences (such as favorite pose templates, custom pose outlines, and onboarding status) are stored strictly locally on your device using Android Jetpack DataStore. Clearing the app's data or uninstalling Pozr permanently deletes these local preferences.</p>
+
+        <h2>5. Data Sharing &amp; Third Parties</h2>
+        <p>Because Pozr does not collect or transmit any user data off your device, no personal data or media is ever shared with third parties.</p>
+
+        <h2>6. Children's Privacy</h2>
+        <p>Pozr does not knowingly collect any personal information from anyone, including children under the age of 13.</p>
+
+        <h2>7. Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time to reflect improvements to the app or regulatory requirements. Any updates will be posted on this page with an updated effective date.</p>
+
+        <h2>8. Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy or Pozr's privacy practices, please contact us through the developer support email listed on the Pozr Google Play Store page.</p>
+
+        <div class="footer">
+            &copy; 2026 Pozr. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
