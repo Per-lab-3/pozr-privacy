@@ -5,17 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - Pozr</title>
     <style>
-        :root {
-            --bg-body: #F8F9FA;
-            --card-bg: #FFFFFF;
-            --text-heading: #111827;
-            --text-body: #374151;
-            --text-secondary: #6B7280;
-            --accent-pink: #FF2D55;
-            --accent-pink-bg: rgba(255, 45, 85, 0.08);
-            --border-color: #E5E7EB;
-            --section-bg: #F9FAFB;
-        }
         * {
             box-sizing: border-box;
             margin: 0;
@@ -23,234 +12,152 @@
         }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--bg-body);
-            color: var(--text-body);
-            line-height: 1.68;
-            padding: 36px 16px;
+            background-color: #FFFFFF;
+            color: #24292F;
+            line-height: 1.6;
+            padding: 48px 24px;
         }
         .container {
             max-width: 820px;
             margin: 0 auto;
-            background-color: var(--card-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 20px;
-            padding: 44px 36px;
-            box-shadow: 0 10px 35px rgba(0, 0, 0, 0.05);
-        }
-        .badge {
-            display: inline-block;
-            background: var(--accent-pink-bg);
-            color: var(--accent-pink);
-            font-size: 12px;
-            font-weight: 700;
-            letter-spacing: 0.8px;
-            text-transform: uppercase;
-            padding: 7px 14px;
-            border-radius: 999px;
-            border: 1px solid rgba(255, 45, 85, 0.2);
-            margin-bottom: 18px;
         }
         h1 {
             font-size: 32px;
-            font-weight: 800;
-            margin-bottom: 8px;
-            color: var(--text-heading);
+            font-weight: 700;
+            color: #1F2328;
             letter-spacing: -0.5px;
+            margin-bottom: 8px;
         }
         .updated {
-            color: var(--text-secondary);
+            color: #656D76;
             font-size: 14px;
-            margin-bottom: 28px;
-            padding-bottom: 20px;
-            border-bottom: 1px solid var(--border-color);
-        }
-        .lead-text {
-            font-size: 16.5px;
-            color: var(--text-body);
-            margin-bottom: 28px;
-            line-height: 1.7;
-        }
-        .section-card {
-            background-color: var(--section-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 14px;
-            padding: 22px 24px;
-            margin-bottom: 22px;
+            margin-bottom: 24px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid #D0D7DE;
         }
         h2 {
-            font-size: 19px;
+            font-size: 20px;
             font-weight: 700;
-            color: var(--text-heading);
+            color: #1F2328;
+            margin-top: 32px;
             margin-bottom: 12px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        h2 .num {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 26px;
-            height: 26px;
-            background-color: var(--accent-pink);
-            color: #FFFFFF;
-            border-radius: 50%;
-            font-size: 13px;
-            font-weight: 700;
         }
         p {
-            color: var(--text-body);
-            font-size: 15.5px;
-            margin-bottom: 12px;
-        }
-        p:last-child {
-            margin-bottom: 0;
+            font-size: 15px;
+            color: #24292F;
+            margin-bottom: 14px;
         }
         ul {
-            padding-left: 20px;
-            margin-top: 10px;
-            margin-bottom: 12px;
+            padding-left: 24px;
+            margin-bottom: 16px;
         }
         li {
-            color: var(--text-body);
             font-size: 15px;
-            margin-bottom: 10px;
-            line-height: 1.6;
+            color: #24292F;
+            margin-bottom: 8px;
         }
-        li strong {
-            color: var(--text-heading);
+        strong {
+            color: #1F2328;
+            font-weight: 600;
         }
         code {
-            background-color: #ECEFF1;
-            color: #C2185B;
+            background-color: #F6F8FA;
             padding: 2px 6px;
             border-radius: 4px;
             font-size: 13.5px;
             font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+            border: 1px solid #D0D7DE;
         }
-        .highlight-box {
-            background-color: #FFF0F3;
-            border-left: 4px solid var(--accent-pink);
-            padding: 14px 18px;
-            border-radius: 6px;
-            margin: 14px 0;
-            font-size: 15px;
-            color: #880E4F;
+        hr {
+            border: 0;
+            border-top: 1px solid #D0D7DE;
+            margin: 32px 0;
         }
         .footer {
-            margin-top: 36px;
-            padding-top: 24px;
-            border-top: 1px solid var(--border-color);
-            font-size: 13.5px;
-            color: var(--text-secondary);
-            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #D0D7DE;
+            font-size: 13px;
+            color: #656D76;
         }
-        @media (max-width: 640px) {
+        @media (max-width: 600px) {
             body {
-                padding: 16px 10px;
-            }
-            .container {
-                padding: 26px 18px;
-                border-radius: 16px;
+                padding: 24px 16px;
             }
             h1 {
                 font-size: 26px;
             }
             h2 {
-                font-size: 17.5px;
-            }
-            .section-card {
-                padding: 18px 16px;
+                font-size: 18px;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <span class="badge">100% On-Device Privacy</span>
         <h1>Privacy Policy for Pozr</h1>
         <p class="updated">Effective Date: October 2026 &bull; Published by UraPix Studio</p>
 
-        <p class="lead-text">
-            Welcome to <strong>Pozr</strong> (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;), developed by <strong>UraPix Studio</strong>. Pozr is an intuitive, real-time photography pose guide and camera assistant application for Android. We hold user privacy as an absolute priority. This Privacy Policy provides a clear and comprehensive explanation of how Pozr operates, how device permissions are utilized, and how your privacy is guaranteed.
+        <p>
+            Welcome to <strong>Pozr</strong> (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;), developed by <strong>UraPix Studio</strong>. Pozr is a photography pose guide and camera assistant application for Android. We respect your privacy and are committed to protecting it through 100% on-device operation.
+        </p>
+        <p>
+            This Privacy Policy explains how Pozr interacts with your device, handles permissions, and ensures your data never leaves your control.
         </p>
 
-        <!-- Point 1 -->
-        <div class="section-card">
-            <h2><span class="num">1</span> Zero Personal Data Collection &amp; No Account Required</h2>
-            <div class="highlight-box">
-                <strong>Guaranteed:</strong> Pozr does not collect, record, transmit, sell, or rent any personal information whatsoever.
-            </div>
-            <ul>
-                <li><strong>No Registration:</strong> You are never asked to create an account, register, or provide your email address, phone number, name, or password.</li>
-                <li><strong>No Cloud Servers:</strong> We do not operate external web servers or cloud databases that ingest your live camera feed, captured images, or personal metadata.</li>
-                <li><strong>Zero Behavioral Tracking:</strong> Pozr contains no third-party advertising frameworks, commercial trackers, or behavioral profiling software.</li>
-            </ul>
-        </div>
+        <h2>1. Zero Personal Data Collection</h2>
+        <p>
+            Pozr does not collect, store, transmit, rent, or sell any personal information or device telemetry.
+        </p>
+        <ul>
+            <li><strong>No User Account:</strong> No sign-in, login credentials, name, email address, or phone number are required to use the app.</li>
+            <li><strong>No Cloud Servers:</strong> We do not operate remote servers or cloud databases that receive your camera feed or photos.</li>
+            <li><strong>No Trackers or Ads:</strong> Pozr does not integrate third-party advertising SDKs, behavioral analytics, or cross-app tracking libraries.</li>
+        </ul>
 
-        <!-- Point 2 -->
-        <div class="section-card">
-            <h2><span class="num">2</span> Camera Permission &amp; 100% On-Device AI Processing</h2>
-            <p>Pozr requests access to your device&rsquo;s camera (<code>android.permission.CAMERA</code>) solely for real-time camera viewfinder preview, pose overlay alignment, and photo capture.</p>
-            <ul>
-                <li><strong>Live Viewfinder Only:</strong> The camera feed is rendered directly to your screen so you or your photographer can align posture, angles, and framing against translucent pose silhouettes.</li>
-                <li><strong>Smart Scene Recognition:</strong> Pozr automatically recognizes environmental backdrops (such as café, beach, outdoor nature, urban street, indoor, or vehicle) to recommend matching poses. This runs <strong>100% locally on your smartphone</strong> via Google ML Kit on-device image labeling models. No camera frames ever leave your device memory.</li>
-                <li><strong>No Biometric Data:</strong> Pozr does not identify faces, store facial templates, collect biometric identifiers, or recognize individual human identities.</li>
-            </ul>
-        </div>
+        <h2>2. Camera Permission &amp; On-Device Processing</h2>
+        <p>
+            Pozr requests camera permission (<code>android.permission.CAMERA</code>) solely to display the live viewfinder, align pose silhouette outlines, and capture photos at your request.
+        </p>
+        <ul>
+            <li><strong>Live Viewfinder:</strong> Camera frames are displayed directly on your device screen to assist with posture and framing.</li>
+            <li><strong>Scene Recognition:</strong> Smart scene categorization (such as outdoor, café, beach, or street) runs 100% locally on your phone using Google ML Kit on-device models. Frames are processed transiently in memory and discarded immediately.</li>
+            <li><strong>Zero Biometric Identification:</strong> Pozr does not extract, catalog, or store facial recognition templates, identity hashes, or biometric identifiers.</li>
+        </ul>
 
-        <!-- Point 3 -->
-        <div class="section-card">
-            <h2><span class="num">3</span> Custom Silhouette Extraction &amp; Zero-Permission Media Picker</h2>
-            <p>Pozr allows you to create custom pose silhouettes from reference images of your choice.</p>
-            <ul>
-                <li><strong>System Photo Picker:</strong> When you import an inspiration photo to generate a custom pose outline, Pozr uses the standard Android System Photo Picker (<code>PickVisualMedia</code>). This grants temporary access <em>only</em> to the single image you explicitly select, with zero broad storage or media permissions required.</li>
-                <li><strong>On-Device Subject Segmentation:</strong> Subject cutout and outline generation are performed entirely in your device&rsquo;s local RAM using on-device ML Kit models. The source image is never uploaded to external servers.</li>
-                <li><strong>Saved Custom Outlines:</strong> Extracted custom silhouettes are stored locally in your app&rsquo;s private internal storage directory and can be deleted at any time with a single tap.</li>
-            </ul>
-        </div>
+        <h2>3. Media Storage &amp; Photo Picker</h2>
+        <ul>
+            <li><strong>Captured Photos:</strong> Photos taken using Pozr are written directly to your device&rsquo;s public storage gallery in the <code>Pictures/Pozr</code> folder via the Android MediaStore API. These files remain entirely on your device.</li>
+            <li><strong>Custom Pose Import:</strong> When you import an inspiration photo to create a custom pose outline, Pozr utilizes the standard Android System Photo Picker (<code>PickVisualMedia</code>). This grants temporary read access exclusively to the single selected image without broad storage access. Subject segmentation runs locally on-device.</li>
+        </ul>
 
-        <!-- Point 4 -->
-        <div class="section-card">
-            <h2><span class="num">4</span> Captured Photo Storage (Direct to Your Gallery)</h2>
-            <ul>
-                <li><strong>Your Photos Belong to You:</strong> Any photo you capture with Pozr is written directly to your phone&rsquo;s public media gallery in the <code>Pictures/Pozr</code> directory using Android&rsquo;s modern Scoped Storage MediaStore API.</li>
-                <li><strong>No Server Copies:</strong> Photos are stored strictly on your local device. Pozr has no capability to view, sync, or transmit your captured photos outside your device.</li>
-            </ul>
-        </div>
+        <h2>4. Local Preferences Storage</h2>
+        <p>
+            User preferences (such as favorite pose presets and camera ratio settings) are stored locally on your device via Android Jetpack DataStore. Clearing the app&rsquo;s data in your device settings or uninstalling the app permanently removes all stored data.
+        </p>
 
-        <!-- Point 5 -->
-        <div class="section-card">
-            <h2><span class="num">5</span> Local App Preferences &amp; Data Deletion</h2>
-            <p>Your user settings—such as favorited pose templates, chosen camera aspect ratio, and first-time onboarding flags—are stored purely locally on your device via Android Jetpack DataStore.</p>
-            <ul>
-                <li><strong>How to Erase:</strong> You have full control. Clearing the app&rsquo;s storage cache via your Android System Settings (<code>Settings &gt; Apps &gt; Pozr &gt; Storage &gt; Clear Data</code>) or uninstalling the app permanently erases all locally saved preferences and custom outlines instantly.</li>
-            </ul>
-        </div>
+        <h2>5. Third-Party Sharing</h2>
+        <p>
+            Because Pozr does not transmit any information off your device, no data is ever shared with, sold to, or accessible by third parties.
+        </p>
 
-        <!-- Point 6 -->
-        <div class="section-card">
-            <h2><span class="num">6</span> Third-Party Data Sharing</h2>
-            <p>Because Pozr operates entirely on-device and does not harvest or transmit any user data, <strong>we do not share, sell, or disclose user data to any third party, marketing partner, or analytics provider.</strong></p>
-        </div>
+        <h2>6. Children&rsquo;s Privacy</h2>
+        <p>
+            Pozr does not collect personal data from any users, including children under the age of 13.
+        </p>
 
-        <!-- Point 7 -->
-        <div class="section-card">
-            <h2><span class="num">7</span> Children&rsquo;s Privacy &amp; Family Safety</h2>
-            <p>Pozr is a safe, family-friendly utility camera tool. We do not knowingly collect, request, or solicit any personal information from children under the age of 13 (or under 16 in applicable jurisdictions). The app operates without user logins or social feeds.</p>
-        </div>
+        <h2>7. Changes to This Privacy Policy</h2>
+        <p>
+            We may update this policy if necessary to reflect product or regulatory updates. Any changes will be posted directly to this page with an updated effective date.
+        </p>
 
-        <!-- Point 8 -->
-        <div class="section-card">
-            <h2><span class="num">8</span> Policy Updates &amp; Contact Us</h2>
-            <p>We may periodically update this policy to reflect new app features or regulatory standards. The latest version will always be maintained at this URL with an updated effective date.</p>
-            <p style="margin-top: 12px;">
-                If you have any questions or feedback regarding this Privacy Policy, please reach out to us at our developer support email listed on the Google Play Store developer page.
-            </p>
-        </div>
+        <h2>8. Contact</h2>
+        <p>
+            If you have questions regarding this Privacy Policy, please contact UraPix Studio via the developer support email provided on our Google Play Store listing.
+        </p>
 
         <div class="footer">
-            &copy; 2026 UraPix Studio &bull; Pozr: AI Photo Pose Guide. All rights reserved.
+            &copy; 2026 UraPix Studio &bull; Pozr
         </div>
     </div>
 </body>
